@@ -1,0 +1,97 @@
+body {
+    background-image: url('src/bg.jpg');
+    background-size: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #252525;
+}
+
+audio::-webkit-media-controls-mute-button {
+    display: none !important;
+}
+
+audio::-webkit-media-controls-volume-slider {
+    display: none !important;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 13px auto 6px;
+}
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #252525;
+    font-size: 15px;
+    padding: 5px 12px 2px;
+    height: 40px;
+}
+
+.button-sans {
+    background-color: #353535;
+    color: #bbb
+}
+
+#container {
+    background-color: rgba(233, 233, 233, 0.9);
+    margin: 5vw auto;
+    padding: 5vh;
+    width: auto;
+    max-width: 800px;
+
+}
+
+#intro {
+    line-height: 1.35;
+}
+
+#video {
+    display: block;
+    margin: 36px auto 10px;
+    width: 80%;
+    max-width: 550px;
+}
+
+.audio {
+    width: 74%;
+    height: 40px;
+}
+
+.audio-container {
+    display: block;
+    margin: auto;
+}
+
+.audio-div {
+    max-width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.audio-disabled {
+    opacity: 60%;
+    pointer-events: none;
+}
+
+#tout-recommence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    width: 60%;
+}
+
+#tout-recommence.button {
+    text-align: center;
+}
+
